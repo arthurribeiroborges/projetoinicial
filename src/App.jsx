@@ -1,6 +1,7 @@
 import "./App.css";
 import MyComponent from "./components/MyComponent";
 import NewComponent from "./components/NewComponent";
+import OtherComponent from "./components/OtherComponent";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
 
     <NewComponent />
     {/* Seu componente deve ser renderizado aqui */}
+    <OtherComponent/>
       <h1>Meu título</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt
