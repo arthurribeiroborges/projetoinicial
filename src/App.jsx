@@ -1,14 +1,19 @@
 import "./App.css";
-import MyComponent from "./components/MyComponent";
-import NewComponent from "./components/NewComponent";
-import OtherComponent from "./components/OtherComponent";
-
+// import MyComponent from "./components/MyComponent";
+// import NewComponent from "./components/NewComponent";
+// import OtherComponent from "./components/OtherComponent";
+import ShowEvents from "./components/ShowEvents";
+import TestUseState from "./components/TestUseState";
+import UseList from "./components/UseList";
 function App() {
   return (
     <>
-
-    <NewComponent />
-    {/* Seu componente deve ser renderizado aqui */}
+    <UseList/>
+    {/* Aula 02 */}
+   {/* <ShowEvents/>
+   <TestUseState/> */}
+    {/* <NewComponent />
+    Aula 01
     <OtherComponent/>
       <h1>Meu título</h1>
       <p>
@@ -16,8 +21,8 @@ function App() {
         error tenetur ratione eius enim beatae aperiam molestiae quod ipsa ullam
         repellat, quasi necessitatibus adipisci labore nisi odit quidem nihil.
       </p>
-      <MyComponent/>
-    </>
+      <MyComponent/>*/}
+    </> 
   );
 }
 
